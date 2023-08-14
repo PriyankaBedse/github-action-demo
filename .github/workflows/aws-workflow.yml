@@ -27,7 +27,9 @@ jobs:
         with:
           access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          auto_approve: true
+          #access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          #secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          #auto_approve: true
           #aws-region: 'us-east-1'
 
       ##create .zip package
