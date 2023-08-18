@@ -16,7 +16,7 @@ jobs:
           aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
           aws_bucket: 'test-github-action-demo-bucket'
-          source_dir: 'github-action-demo'
+          source_dir: 'main.tf'
    
       - name: Upload file to bucket
         uses: zdurham/s3-upload-github-action@master
