@@ -12,7 +12,7 @@ jobs:
       - name: Upload file to bucket
         uses: zdurham/s3-upload-github-action@master
         with:
-          #args: --acl public-read
+          args: --acl public-read
           FILE: ./main.tf
           AWS_REGION: 'eu-north-1'
           S3_BUCKET: 'test-github-action-demo-bucket'
