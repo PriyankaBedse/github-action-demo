@@ -13,7 +13,7 @@ jobs:
         uses: zdurham/s3-upload-github-action@master
         with:
           args: --acl public-read
-          FILE: ./lambda.zip
+          FILE: ./main.tf
           AWS_REGION: 'us-east-1'
           #S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           #S3_KEY: ${{ secrets.S3_KEY }}
