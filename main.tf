@@ -4,7 +4,7 @@ provider "aws" {
   #secret_key = ""
 }
 resource "aws_s3_bucket" "bucket" {
-  bucket = "test-github-action-bucket-priya"
+  bucket = "test-github-action-demo-bucket"
 
   tags = {
     Name        = "priyanka"
